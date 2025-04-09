@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyber Shield - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Cyber Shield Dashboard</h1>
+        <p>Monitor real-time cyber incidents in India</p>
+    </header>
+
+    <main>
+        <section id="incidents">
+            <h2>Latest Incidents</h2>
+            <table id="incident-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Text</th>
+                        <th>Sentiment</th>
+                        <th>Threat Level</th>
+                        <th>Confidence</th>
+                        <th>Timestamp</th>
+                    </tr>
+                </thead>
+                <tbody id="incident-body"></tbody>
+            </table>
+        </section>
+
+        <section id="alerts">
+            <h2>Active Alerts</h2>
+            <ul id="alert-list"></ul>
+        </section>
+        <button id="refresh-btn">Refresh Data</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Cyber Shield. Made by PATHURI ROHIT.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
