@@ -16,6 +16,7 @@ The project is structured into several components:
 
 Steps to setup -
 
+imp**- add a new .env file and add your database key and api keys.
 1. clone the git repository
 2. install the venv using command:- python3 -m venv venv
 3. activate the venv using command :- venv\Scripts\activate
